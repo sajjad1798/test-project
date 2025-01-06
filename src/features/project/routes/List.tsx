@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useGetProjects } from "../api/getProjects";
-import { Button, Spin, Table } from "antd";
-import { formatDate } from "@/utils";
+import { Spin, Table } from "antd";
 import { TableColumns } from "../components/TableColumns";
 
 export const List = () => {
@@ -15,7 +14,7 @@ export const List = () => {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center w-screen h-screen">
+      <div className="flex items-center justify-center h-screen">
         <Spin size="large" />
       </div>
     );

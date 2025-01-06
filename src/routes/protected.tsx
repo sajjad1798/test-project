@@ -15,7 +15,7 @@ const App = () => {
       <Suspense
         fallback={
           <div className="min-h-[calc(100vh-84px)] w-full flex items-center justify-center">
-            <Spin />
+            <Spin size="large" />
           </div>
         }
       >

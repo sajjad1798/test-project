@@ -10,7 +10,7 @@ const App: React.FC = () => {
     <Suspense
       fallback={
         <div className="flex items-center justify-center w-screen h-screen">
-          <Spin />
+          <Spin size="large" />
         </div>
       }
     >
